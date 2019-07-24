@@ -18,3 +18,5 @@ Assumptions:
 - Despite relational nature of the table, DB is MongoDB since it is just one table in isolation
 - UI design is very basic
 - GraphQL/Apollo to provide/interact with an API level
+---
+**DB cluster was shut down**
