@@ -1,0 +1,3 @@
+{"level":"info","message":"logfile: /Users/aldou/domains/tests/borderGuru/server/logs/streembit.log","timestamp":"2019-07-16T08:44:34.786Z"}
+{"level":"info","message":"Listening on :8080 with GQL running on /data ..","timestamp":"2019-07-16T08:44:34.826Z"}
+{"level":"info","message":"open mongoDB connection succeed","timestamp":"2019-07-16T08:44:35.489Z"}

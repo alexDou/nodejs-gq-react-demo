@@ -1,0 +1,46 @@
+{
+    "name": "borderguru-server",
+    "version": "0.0.1",
+    "private": true,
+    "license": "WTFPL",
+    "scripts": {
+        "start": "node dist/app",
+        "start:dev": "./node_modules/nodemon/bin/nodemon.js 'src/app.ts' --exec 'ts-node' src/app.ts -e ts,graphql",
+        "build:tmp": "./node_modules/typescript/bin/tsc -p .",
+        "build": "rm -rf dist && tsc",
+        "lint": "node_modules/eslint/bin/eslint.js --fix 'src/**'",
+        "test": "./node_modules/mocha/bin/mocha -r ts-node/register 'src/tests/*.spec.ts'"
+    },
+    "dependencies": {
+        "express": "^4.16.4",
+        "compression": "^1.7.4",
+        "apollo-server-express": "^2.5.0",
+        "graphql": "^14.3.0",
+        "graphql-tools": "^4.0.5",
+        "mongoose": "^5.6.0",
+        "mongoose-sequence": "^5.1.0",
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.0.0",
+        "streembit-util": "git+https://github.com/streembit/streembit-util.git"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.1",
+        "@typescript-eslint/parser": "^1.10.2",
+        "@typescript-eslint/eslint-plugin": "^1.10.2",
+        "@types/node": "^12.0.10",
+        "@types/compression": "^0.0.36",
+        "@types/express": "^4.17.0",
+        "@types/graphql": "^14.2.1",
+        "@types/mocha": "^5.2.7",
+        "@types/chai": "^4.1.7",
+        "@types/chai-spies": "^1.0.0",
+        "eslint-plugin-graphql": "^3.0.3",
+        "eslint": "^5.4.0",
+        "ts-node": "8.0.2",
+        "typescript": "3.3.3",
+        "mocha": "^6.1.4",
+        "chai": "^4.2.0",
+        "chai-spies": "^1.0.0"
+    }
+}

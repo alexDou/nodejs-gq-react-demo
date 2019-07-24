@@ -1,0 +1,4 @@
+{"level":"info","message":"logfile: /Users/aldou/domains/tests/borderGuru/server/logs/streembit.log","timestamp":"2019-06-24T10:43:17.952Z"}
+{"level":"info","message":"Listening on :8080 with GQL running on /data ..","timestamp":"2019-06-24T10:43:17.993Z"}
+{"level":"info","message":"open mongoDB connection succeed","timestamp":"2019-06-24T10:43:18.481Z"}
+{"message":"read ETIMEDOUT","stack":"Error: read ETIMEDOUT\n    at TLSWrap.onStreamRead (internal/stream_base_commons.js:183:27)","name":"MongoNetworkError","errorLabels":["TransientTransactionError"],"level":"error","timestamp":"2019-06-24T10:51:58.155Z"}
